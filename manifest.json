@@ -8,6 +8,6 @@
   "browser_action": {
     "default_icon": "images/giphy-icon19.png",
     "default_popup": "popup.html",
-    "default_title": "Look up word"
-  },
+    "default_title": "GimmeGIPHY"
+  }
 }
