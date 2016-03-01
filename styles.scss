@@ -1,16 +1,26 @@
-img {
+img, h1, p {
   display: inline-block;
+}
+
+img {
   vertical-align: middle;
   width: 29px;
   margin-bottom: 3px;
 }
 
 h1 {
-  display: inline-block;
   margin: 1px;
   vertical-align: middle;
   font-size: 33px;
   font-style: italic;
+}
+
+p {
+  color: silver;
+  font-style: italic;
+  font-size: 14px;
+  margin: 7px 5px;
+  vertical-align: bottom;
 }
 
 div {
@@ -27,7 +37,7 @@ form {
 
 #tags {
   padding: 4px 8px;
-  width: 213px;
+  width: 217px;
   font-size: 12px;
   font-style: italic;
   border: none;
@@ -37,8 +47,15 @@ form {
 #submit {
   color: white;
   font-size: 16px;
+  font-style: italic;
   cursor: pointer;
   font-weight: bold;
   border:none;
   background-color: black;
+  &:hover {
+    background-color: rgb(37,217,187);
+  }
+  &:focus {
+    outline: none;
+  }
 }
