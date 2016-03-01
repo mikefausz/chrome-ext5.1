@@ -1,0 +1,22 @@
+{
+  "name": "Chrome Extension",
+  "description": "Looks up the highlighted phrase",
+  "main": "",
+  "moduleType": [],
+  "authors": [
+    "Mike Fausz"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "underscore": "^1.8.3"
+  }
+}

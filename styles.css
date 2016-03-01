@@ -1,0 +1,37 @@
+img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 29px;
+  margin-bottom: 3px; }
+
+h1 {
+  display: inline-block;
+  margin: 1px;
+  vertical-align: middle;
+  font-size: 33px;
+  font-style: italic; }
+
+div {
+  width: 300px;
+  overflow: hidden; }
+  div img {
+    width: 100%; }
+
+form {
+  margin-top: 3px; }
+
+#tags {
+  padding: 4px 8px;
+  width: 213px;
+  font-size: 12px;
+  font-style: italic;
+  border: none;
+  text-align: right; }
+
+#submit {
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background-color: black; }
